@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/*limpando formatações padrões*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    background-color: #161613;
+}
+
+/* 
+***
+****Layout 
+**
+*/
+#area-cabecalho {
+    background-color: #c1e0e0;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, #area-menu {
+    padding: 10px;
+}
+
+#area-menu {
+    font-weight: 700;
+}
+
+#area-principal {
+    width: 920px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}   
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 12px;
+    background-color:#c1e0e0;
+}
+
+
+.img-postagem{
+    width: 620px;
+}
+
+.conteudo-lateral {
+    background-color: #c1e0e0;
+    padding: 10px;    
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid #f9f9e7;
+}
+
+.data-postagem {
+    font-size: 0.7em;
+    border-bottom: 1px solid #161613;
+    padding-bottom: 10px;
+}
+
+#footer {
+    clear: both;
+    color: #c0a1ae;
+    background-color: #c1e0e0;
+    text-align: center;
+    padding: 12px;
+}
+
+img {
+    width:520px;
+}
+
+.img-postagem {
+    clear: both;
+}
+
+h1 {
+    color:#f9f9e7;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #505045;
+}
+
+h3 {
+    color: aliceblue;
+    background-color: #c0a1ae;
+    padding:5px;
+}
+
+.marrom {
+    color: #505045;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 8px;
+    border-radius: 5px;
+}
+
+a:link, a:visited {
+    color:#c0a1ae;
+    
+}
+
+a:hover {
+    color:#161613;
+    background: #c0a1ae;
+    text-decoration: underline;
+}
+
+a.veja-mais {
+    display: inline-block;
+    background-color: #f9f9e7;
+}
+
+a.categorias {
+    display: block;
+    padding: 1px;
+    margin-top: 5px;
+    color: #505045;
+}
+
+a.leia-mais {
+    display: inline-block;
+    padding: 5px;
+    
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+    color:#c0a1ae;
+    padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+    color:#f9f9e7;
+    background: #c0a1ae;
+    text-decoration: none;
+}
